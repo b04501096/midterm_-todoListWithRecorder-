@@ -11,7 +11,7 @@ let Todo = require('./todo.model');
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://b04501096:az27207640@cluster0-6zbck.mongodb.net/test?retryWrites=true', {
+mongoose.connect('mongodb+srv://<inputyouraccountandpassword>@cluster0-6zbck.mongodb.net/test?retryWrites=true', {
     useNewUrlParser: true
 })
 const connection = mongoose.connection;
